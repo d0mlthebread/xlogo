@@ -137,10 +137,10 @@ function App() {
         >
           Generate Image (PNG)
         </button>
-        <a href="https://twitter.com/d_breado" className="absolute bottom-0 right-0">
+        <a href="https://twitter.com/xlogonow" className="absolute bottom-0 right-0">
           <img
             src={logo}
-            alt="d_bread on X"
+            alt="X Logo"
             className="w-8 h-8 hover:w-10 hover:h-10 transition-all"
             target="_blank"
           />
