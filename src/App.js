@@ -97,12 +97,13 @@ useEffect(() => {
       <h1 className="text-center text-white pt-8 mb-10 text-2xl">
         Generate your new profile pic to please our master{" "}
         <a
-          href="https://twitter.com/elonmusk"
+          href="https://twitter.com/x"
           target="_blank"
           className="hover:text-blue-600"
         >
-          @elonmusk
+          @x
         </a>
+        #xitter
       </h1>
       <div
         style={{
@@ -207,6 +208,7 @@ useEffect(() => {
       <a
         href="https://getamber.site"
         className="absolute bottom-4 left-4 z-10 w-10 sm:w-20"
+        target="_blank"
       >
         <img src={logoamber} />
       </a>
