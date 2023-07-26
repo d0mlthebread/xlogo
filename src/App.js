@@ -3,6 +3,7 @@ import "./custom-font.css"
 import "./index.css"
 import logo from "./x_logo.png";
 import logoamber from "./amber_logo.svg";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [character, setCharacter] = useState("A");
@@ -223,6 +224,7 @@ useEffect(() => {
           target="_blank"
         />
       </a>
+      <Analytics />
     </div>
   );
 }
