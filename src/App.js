@@ -96,14 +96,14 @@ useEffect(() => {
   return (
     <div className="w-full h-screen bg-black relative">
       <h1 className="text-center text-white pt-8 mb-10 text-2xl">
-        Generate your new profile pic to please our master{" "}
+        Looking into it!!!{" "}
         <a
           href="https://twitter.com/x"
           target="_blank"
           className="hover:text-blue-600"
         >
           @x
-        </a>
+        </a>{" "}
         #xitter
       </h1>
       <div
