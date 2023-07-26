@@ -181,6 +181,9 @@ useEffect(() => {
           >
             Generate Image (PNG)
           </button>
+          <div className="text-sm text-white w-full  pt-6">
+            it's recommended to generate the pfp on a desktop pc / share it on X with #xitter
+          </div>
         </div>
         {/* <button onClick={handleDownloadSvg}>Download Image (SVG)</button> */}
         <div style={{ display: "none" }}>
@@ -206,6 +209,7 @@ useEffect(() => {
           </div>
         </div>
       </div>
+
       <a
         href="https://getamber.site"
         className="absolute bottom-4 left-4 z-10 w-10 sm:w-20"
