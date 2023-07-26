@@ -13,7 +13,7 @@ function App() {
   const svgRef = useRef(null);
 
   const handleInputChange = (event) => {
-    setCharacter(event.target.value.trim().charAt(0));
+    setCharacter(event.target.value.trim().charAt(0).toUpperCase());
   };
 
   const handleFontSizeChange = (event) => {
