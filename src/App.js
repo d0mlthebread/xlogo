@@ -39,13 +39,15 @@ function App() {
     canvas.height = canvasWidth;
 
     const ctx = canvas.getContext("2d");
+    const x = canvas.width * 0.5;
+    const y = canvas.width * 0.55;
     ctx.fillStyle = "#000";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = "#eff3f4";
     ctx.font = `${fontSize}px CustomFont`;
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    ctx.fillText(character, canvas.width / 2, canvas.width / 2.6);
+    ctx.fillText(character, x, y);
 
 
 
