@@ -44,7 +44,7 @@ function App() {
     ctx.fillStyle = "#eff3f4";
     ctx.font = `${fontSize}px CustomFont`;
     ctx.textAlign = "center";
-    ctx.textBaseline = "hanging";
+    ctx.textBaseline = "middle";
     ctx.fillText(character, canvas.width / 2, canvas.width / 2.6);
 
 
