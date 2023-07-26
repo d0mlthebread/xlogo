@@ -214,7 +214,7 @@ useEffect(() => {
         <img src={logoamber} />
       </a>
       <a
-        href="https://twitter.com/xlogonow"
+        href="https://twitter.com/XitterSite"
         className="absolute bottom-4 right-4 z-10"
       >
         <img
